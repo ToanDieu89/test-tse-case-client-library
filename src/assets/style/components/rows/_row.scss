@@ -1,0 +1,96 @@
+.row-wrapper {
+  position: relative;
+  display: flex;
+  padding: 15px;
+  width: 100%;
+}
+.row-wrapper__time {
+  width: 15%;
+  p {
+    height: 22px;
+    font-family: Gotham;
+    font-size: 15px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.47;
+    letter-spacing: normal;
+    color: #f08262;
+  }
+}
+.row-wrapper__content {
+  width: 60%;
+  display: block;
+}
+.row-wrapper__content__lable {
+  height: 22px;
+  font-family: Gotham;
+  font-size: 18px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.22;
+  letter-spacing: normal;
+  color: #1e5a6e;
+}
+.row-wrapper__content__description {
+  height: 22px;
+  font-family: Gotham;
+  font-size: 15px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.47;
+  letter-spacing: normal;
+  color: #1e5a6e;
+}
+.row-wrapper__action {
+  position: relative;
+  width: 25%;
+}
+.row-wrapper__action--wrapper {
+  position: absolute;
+  display: flex;
+  right: 0;
+}
+.row-wrapper__action_first {
+  &:hover {
+    cursor: pointer;
+  }
+  p {
+    height: 14px;
+    font-family: Gotham;
+    font-size: 14px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: right;
+    color: #789ca8;
+    text-transform: uppercase;
+  }
+}
+.row-wrapper__action_devider {
+  margin: 0 10px;
+  height: 14px;
+  border: 0.5px solid #e8e6e2;
+}
+.row-wrapper__action__second {
+  &:hover {
+    cursor: pointer;
+  }
+  p {
+    height: 14px;
+    font-family: Gotham;
+    font-size: 14px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: right;
+    color: #789ca8;
+    text-transform: uppercase;
+  }
+}

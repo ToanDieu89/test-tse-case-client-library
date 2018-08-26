@@ -1,0 +1,19 @@
+.search-wrapper {
+  display: table-cell;
+  border: none;
+  margin-left: 24px;
+  height: 100%;
+  vertical-align: middle;
+  width: 40%;
+  padding-left: 22px;
+  img {
+    margin-right: 15px;
+    vertical-align: middle;
+  }
+}
+.search-wrapper__input {
+  vertical-align: middle;
+  border: none;
+  font-size: 15px;
+  color: #1e5a6e;
+}

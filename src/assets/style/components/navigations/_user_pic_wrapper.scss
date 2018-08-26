@@ -1,0 +1,16 @@
+.userpicwrapper {
+  position: relative;
+  width: 65px;
+  height: 55px;
+  img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    border-radius: 50%;
+    display: block;
+    width: inherit;
+    height: inherit;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+  }
+}

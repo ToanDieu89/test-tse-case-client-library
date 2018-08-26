@@ -1,0 +1,43 @@
+.button {
+  display: inline-block;
+  padding: 0;
+  width: 144px;
+  height: 45px;
+  border-radius: 2px;
+  font-size: 15px;
+  cursor: pointer;
+  text-align: center;
+}
+
+.button--primary {
+  background-color: $dark-blue;
+  color: $white;
+  border: none;
+  &:disabled {
+    background-color: $secondary;
+    cursor: inherit;
+  }
+}
+
+.button--disabled {
+  background-color: $gray !important;
+  color: $light-gray !important;
+  cursor: default;
+}
+
+.button--centered {
+  margin: 0 auto;
+}
+
+.button-text__add {
+  display: inline-block;
+  text-transform: uppercase;
+  color: $vin-orange;
+  cursor: pointer;
+  img {
+    vertical-align: middle;
+  }
+  span {
+    margin-right: $base-spacing;
+  }
+}

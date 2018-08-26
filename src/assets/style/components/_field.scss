@@ -1,0 +1,103 @@
+.form {
+  display: block;
+}
+
+.field {
+  display: block;
+  &:not(:last-of-type) {
+    margin-bottom: 27px;
+  }
+}
+
+.field__label {
+  text-transform: uppercase;
+}
+
+.field__label--default {
+  font-size: 12px;
+  margin-bottom: 10px;
+  color: $vin-blue;
+}
+
+.field__input {
+  display: block;
+  box-sizing: border-box;
+}
+
+.field__input--default {
+  width: 100%;
+  border: 1px solid $input-border-color;
+  height: 50px;
+  font-size: 15px;
+  color: $warm-gray;
+  padding: 0 1em;
+  &::placeholder {
+    color: $medium-gray;
+  }
+}
+
+.field__checkbox {
+  display: inline-block;
+}
+
+.field__item {
+  display: block;
+  width: 100%;
+  &:not(:last-child) {
+    margin-bottom: 14px;
+  }
+}
+
+.field__text-area {
+  display: block;
+  box-sizing: border-box;
+}
+
+.field__text-area--default {
+  width: 100%;
+  border: 1px solid $input-border-color;
+  font-size: 15px;
+  color: rgba(0, 0, 0, 0.5);
+  padding: 1em;
+  &::placeholder {
+    color: $medium-gray;
+  }
+}
+
+.error {
+  color: $vin-orange;
+  font-weight: 500;
+}
+
+.input-dirty {
+  background-color: $light-gray;
+}
+
+.lang-switch-form {
+  position: absolute;
+  right: 20px;
+}
+
+.lang-switch__value {
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.lang-switch__value--selected {
+  font-weight: 700;
+  cursor: auto;
+}
+
+.field__remove {
+  position: absolute;
+  right: 0;
+  top: 0;
+  cursor: pointer;
+}
+
+pre {
+  border: 1px solid #ccc;
+  background: rgba(0, 0, 0, 0.1);
+  box-shadow: inset 1px 1px 3px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+}

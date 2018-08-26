@@ -1,0 +1,15 @@
+{
+    "presets": [
+      "stage-1",
+      "react",
+      [
+        "latest", {
+          "es2015-rollup": {
+            "modules": false
+          }
+        }
+      ]
+    ],
+    "plugins": ["transform-object-assign", "transform-class-properties", "syntax-dynamic-import"]
+  }
+  

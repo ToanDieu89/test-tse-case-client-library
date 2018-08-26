@@ -1,0 +1,61 @@
+.profile {
+  position: relative;
+  display: block;
+  width: fit-content;
+  z-index: 1;
+  border: 0.5px solid #efeaf5de;
+  border-radius: 5px;
+  box-shadow: 0px 0.5px #efeaf5de;
+  padding: 10px 20px 10px 20px;
+  padding-right: 45px;
+  background-color: white;
+}
+.profile__email {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  padding: 0px 0px 10px 0px;
+  color: #1e5a6e;
+}
+.profile__devider {
+  border: 0.5px solid #efeaf5de;
+  width: 100%;
+  position: absolute;
+  left: 0;
+}
+.profile__stuff {
+  display: block;
+  padding: 10px 0;
+}
+.profile__stuff__changepassword {
+  display: flex;
+  padding: 6px 0;
+  img {
+    padding-right: 10px;
+  }
+  p {
+    line-height: 24px;
+    color: #1e5a6e;
+    white-space: nowrap;
+    &:hover {
+      cursor: pointer;
+      color: #f08262;
+    }
+  }
+}
+.profile__stuff__logout {
+  display: flex;
+  padding: 6px 0;
+  img {
+    padding-right: 10px;
+  }
+  p {
+    line-height: 24px;
+    color: #1e5a6e;
+    white-space: nowrap;
+    &:hover {
+      cursor: pointer;
+      color: #f08262;
+    }
+  }
+}

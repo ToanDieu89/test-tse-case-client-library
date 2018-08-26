@@ -1,0 +1,356 @@
+
+.large-primary-default {
+  width: 144px;
+  height: 45px;
+  border-radius: 2px;
+  background-color: #1e5a6e;
+  font-family: Gotham;
+  font-size: 15px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #ffffff;
+  text-transform: uppercase;
+  cursor: pointer;
+  border: none;
+}
+.large-primary-disable {
+  width: 144px;
+  height: 45px;
+  border-radius: 2px;
+  background-color: #1e5a6e;
+  text-transform: uppercase;
+  opacity: 0.2;
+  font-family: Gotham;
+  font-size: 15px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #ffffff;
+  border: none;
+  &:hover {
+    cursor: not-allowed;
+  }
+}
+.large-secondary-default {
+  cursor: pointer;
+  width: 144px;
+  height: 45px;
+  border-radius: 2px;
+  background-color: #789ca8;
+  text-transform: uppercase;
+  font-family: Gotham;
+  font-size: 15px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #ffffff;
+  border: none;
+}
+.large-secondary-disable {
+  width: 144px;
+  height: 45px;
+  border-radius: 2px;
+  background-color: #789ca8;
+  opacity: 0.2;
+  font-family: Gotham;
+  font-size: 15px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #ffffff;
+  text-transform: uppercase;
+  border: none;
+  &:hover {
+    cursor: not-allowed;
+  }
+}
+.large-danger-default {
+  cursor: pointer;
+  background-color: #ee5151;
+  width: 144px;
+  height: 45px;
+  border-radius: 2px;
+  font-family: Gotham;
+  font-size: 15px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #ffffff;
+  text-transform: uppercase;
+  border: none;
+}
+.large-danger-disable {
+  background-color: #ee5151;
+  width: 144px;
+  height: 45px;
+  border-radius: 2px;
+  opacity: 0.2;
+  font-family: Gotham;
+  font-size: 15px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #ffffff;
+  text-transform: uppercase;
+  border: none;
+  &:hover {
+    cursor: not-allowed;
+  }
+}
+
+//////// SMALL///////////////////
+.small-primary-default {
+  cursor: pointer;
+  width: 132px;
+  height: 34px;
+  border-radius: 2px;
+  background-color: #1e5a6e;
+  font-family: Gotham;
+  font-size: 15px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #ffffff;
+  text-transform: uppercase;
+  border: none;
+}
+.small-primary-disable {
+  width: 132px;
+  height: 34px;
+  border-radius: 2px;
+  background-color: #1e5a6e;
+  text-transform: uppercase;
+  opacity: 0.2;
+  font-family: Gotham;
+  font-size: 15px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #ffffff;
+  border: none;
+  &:hover {
+    cursor: not-allowed;
+  }
+}
+.small-secondary-default {
+  cursor: pointer;
+  width: 132px;
+  height: 34px;
+  border-radius: 2px;
+  background-color: #789ca8;
+  text-transform: uppercase;
+  font-family: Gotham;
+  font-size: 15px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #ffffff;
+  border: none;
+}
+.small-secondary-disable {
+  width: 132px;
+  height: 34px;
+  border-radius: 2px;
+  background-color: #789ca8;
+  opacity: 0.2;
+  font-family: Gotham;
+  font-size: 15px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #ffffff;
+  text-transform: uppercase;
+  border: none;
+  &:hover {
+    cursor: not-allowed;
+  }
+}
+.small-danger-default {
+  cursor: pointer;
+  background-color: #ee5151;
+  width: 132px;
+  height: 34px;
+  border-radius: 2px;
+  font-family: Gotham;
+  font-size: 15px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #ffffff;
+  text-transform: uppercase;
+  border: none;
+}
+.small-danger-disable {
+  background-color: #ee5151;
+  width: 132px;
+  height: 34px;
+  border-radius: 2px;
+  opacity: 0.2;
+  font-family: Gotham;
+  font-size: 15px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #ffffff;
+  text-transform: uppercase;
+  border: none;
+  &:hover {
+    cursor: not-allowed;
+  }
+}
+
+//////// TINY///////////////////
+.tiny-primary-default {
+  cursor: pointer;
+  width: 132px;
+  height: 34px;
+  border-radius: 2px;
+  background-color: #1e5a6e;
+  font-family: Gotham;
+  font-size: 15px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #ffffff;
+  text-transform: capitalize;
+  border: none;
+}
+.tiny-primary-disable {
+  width: 132px;
+  height: 34px;
+  border-radius: 2px;
+  background-color: #1e5a6e;
+  text-transform: capitalize;
+  opacity: 0.2;
+  font-family: Gotham;
+  font-size: 15px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #ffffff;
+  border: none;
+  &:hover {
+    cursor: not-allowed;
+  }
+}
+.tiny-secondary-default {
+  cursor: pointer;
+  width: 132px;
+  height: 34px;
+  border-radius: 2px;
+  background-color: #789ca8;
+  text-transform: capitalize;
+  font-family: Gotham;
+  font-size: 15px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #ffffff;
+  border: none;
+}
+.tiny-secondary-disable {
+  width: 132px;
+  height: 34px;
+  border-radius: 2px;
+  background-color: #789ca8;
+  opacity: 0.2;
+  font-family: Gotham;
+  font-size: 15px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #ffffff;
+  text-transform: capitalize;
+  border: none;
+  &:hover {
+    cursor: not-allowed;
+  }
+}
+.tiny-danger-default {
+  cursor: pointer;
+  background-color: #ee5151;
+  width: 132px;
+  height: 34px;
+  border-radius: 2px;
+  font-family: Gotham;
+  font-size: 15px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #ffffff;
+  text-transform: capitalize;
+  border: none;
+}
+.tiny-danger-disable {
+  background-color: #ee5151;
+  width: 132px;
+  height: 34px;
+  border-radius: 2px;
+  opacity: 0.2;
+  font-family: Gotham;
+  font-size: 15px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #ffffff;
+  text-transform: capitalize;
+  border: none;
+  &:hover {
+    cursor: not-allowed;
+  }
+}

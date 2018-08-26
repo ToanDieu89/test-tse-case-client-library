@@ -1,0 +1,32 @@
+.spinner__dots {
+  margin: 0 auto;
+  position: relative;
+  text-align: center;
+  div {
+    width: 18px;
+    height: 18px;
+    background-color: #789ca8;
+    border-radius: 100%;
+    display: inline-block;
+    -webkit-animation: sk-bouncedelay 1.4s infinite ease-in-out both;
+    animation: sk-bouncedelay 1.4s infinite ease-in-out both;
+  }
+}
+.bounce1 {
+  -webkit-animation-delay: -0.32s;
+  animation-delay: -0.32s;
+}
+.bounce2 {
+}
+.bounce3 {
+}
+.loader-spinner {
+  position: relative;
+  margin: 0 auto;
+  border: 6px solid #7f7f7f;
+  border-top: 6px solid #789ca8;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  animation: spin 2s linear infinite;
+}
